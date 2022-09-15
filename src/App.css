@@ -1,0 +1,17 @@
+.container {
+  margin: 50px 0px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+.app-section {
+  width: 600px;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.15);
+  padding: 50px;
+}

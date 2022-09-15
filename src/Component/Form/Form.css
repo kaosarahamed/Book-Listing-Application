@@ -1,0 +1,35 @@
+.Form {
+  width: 100%;
+}
+.Form form {
+  display: flex;
+  flex-direction: column;
+}
+.Form label {
+  font-size: 18px;
+  font-family: cursive;
+  padding: 15px 0px;
+}
+.Form input {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px 20px;
+  font-size: 18px;
+  font-family: cursive;
+}
+.Form button {
+  width: 100px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  width: 120px;
+}

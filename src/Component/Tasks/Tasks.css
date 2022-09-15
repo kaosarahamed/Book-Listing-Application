@@ -1,0 +1,23 @@
+.Tasks {
+  width: 100%;
+}
+.Tasks table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.Tasks td {
+  border: 1px solid lightblue;
+  padding: 10px 20px;
+}
+.task {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task span {
+  cursor: pointer;
+}
